@@ -29,7 +29,9 @@ class ClosetController(
 
     }
 
-//    @PostMapping("/createOne")
-//    fun buyNew (@RequestBody)
+    @PostMapping("/createOne")
+    fun buyNew (@RequestBody id: Long): String {
+        return ""
+    }
 
 }
